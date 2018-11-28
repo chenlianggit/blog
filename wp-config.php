@@ -23,13 +23,13 @@
 define('DB_NAME', 'blog');
 
 /** MySQL数据库用户名 */
-define('DB_USER', 'root');
+define('DB_USER', 'blog');
 
 /** MySQL数据库密码 */
-define('DB_PASSWORD', 'Chen6639581');
+define('DB_PASSWORD', 'blogcc123456');
 
 /** MySQL主机 */
-define('DB_HOST', '172.21.0.16');
+define('DB_HOST', '172.21.1.17');
 
 /** 创建数据表时默认的文字编码 */
 define('DB_CHARSET', 'utf8mb4');
