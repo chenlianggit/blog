@@ -1,0 +1,286 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: OSS Upload\n"
+"POT-Creation-Date: 2018-06-01 15:41+0800\n"
+"PO-Revision-Date: 2018-06-01 15:43+0800\n"
+"Last-Translator: Link <playes@qq.com>\n"
+"Language-Team: Link <playes@qq.com>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: oss-upload.php\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#. Plugin Name of the plugin/theme
+#: oss-upload.php:86 oss-upload.php:289 oss-upload.php:371
+msgid "OSS Upload"
+msgstr ""
+
+#: oss-upload.php:91
+msgid "Settings"
+msgstr "设置"
+
+#: oss-upload.php:112
+msgid "Show More"
+msgstr "显示更多"
+
+#: oss-upload.php:113
+msgid "Descriptions"
+msgstr "描述"
+
+#: oss-upload.php:114
+msgid "Examples"
+msgstr "示范"
+
+#: oss-upload.php:302
+msgid "Plugin Rating"
+msgstr "插件评级"
+
+#: oss-upload.php:303
+msgid "Support"
+msgstr "支持"
+
+#: oss-upload.php:304
+msgid "Donate"
+msgstr "捐赠"
+
+#: oss-upload.php:305
+msgid "For more information"
+msgstr "更多信息"
+
+#: oss-upload.php:306
+msgid "Clear META"
+msgstr "清除元标记"
+
+#: oss-upload.php:307
+msgid "Build META"
+msgstr "生成元标记"
+
+#: oss-upload.php:308
+msgid "More Plugins"
+msgstr "更多插件"
+
+#: oss-upload.php:309
+msgid "About"
+msgstr "关于"
+
+#: oss-upload.php:336
+msgid "Build META Done"
+msgstr "成功生成元标记"
+
+#: oss-upload.php:336
+msgid "Clear META Done"
+msgstr "成功清除元标记"
+
+#: oss-upload.php:344
+msgid "Write OK, "
+msgstr "写入正常，"
+
+#: oss-upload.php:347
+msgid "Read OK, "
+msgstr "读取正常，"
+
+#: oss-upload.php:350
+msgid "Delete OK"
+msgstr "删除正常"
+
+#: oss-upload.php:353
+msgid "Delete Error: "
+msgstr "删除出错："
+
+#: oss-upload.php:356
+msgid "Read Error: "
+msgstr "读取出错："
+
+#: oss-upload.php:359
+msgid "Write Error: "
+msgstr "写入出错："
+
+#: oss-upload.php:378
+msgid "Enable"
+msgstr "启用"
+
+#: oss-upload.php:381
+msgid "Use OSS as media library storage"
+msgstr "使用 OSS 作为媒体库存储"
+
+#: oss-upload.php:384
+msgid "Access Key"
+msgstr ""
+
+#: oss-upload.php:390
+msgid "Secret Key"
+msgstr ""
+
+#: oss-upload.php:396
+msgid "Upload Path"
+msgstr "上传路径"
+
+#: oss-upload.php:400
+msgid "<code>{PATH}</code> can be empty, with no slash at the end"
+msgstr "<code>{PATH}</code> 可为空，最后不带斜杠"
+
+#: oss-upload.php:407
+msgid "Visit URL"
+msgstr "访问链接"
+
+#: oss-upload.php:411
+msgid ""
+"<code>{PATH}</code> can be empty, <code>{BUCKET}</code> can be directory or "
+"domain, also can be https"
+msgstr ""
+"<code>{PATH}</code> 可为空, <code>{BUCKET}</code> 可为目录或域名，支持 HTTPS"
+
+#: oss-upload.php:420
+msgid "Upload EndPoint"
+msgstr "上传端域"
+
+#: oss-upload.php:424
+msgid ""
+"<code>{BUCKET}</code> not included, can be internal endpoint if your server "
+"is in the same area with oss"
+msgstr ""
+"不包含 <code>{BUCKET}</code>，如服务器跟OSS处于同个区域则允许设置为内部端域"
+
+#: oss-upload.php:438
+msgid "Run a test"
+msgstr "测试一下"
+
+#: oss-upload.php:442
+msgid "Image Thumbnails"
+msgstr "图片缩略图"
+
+#: oss-upload.php:444
+msgid "Disable thumbnails"
+msgstr "禁用缩略图功能"
+
+#: oss-upload.php:445
+msgid "Use origin image for display in all scenarios"
+msgstr "在所有场景中均使用原图"
+
+#: oss-upload.php:446
+msgid "Generate thumbnails file in a violent way"
+msgstr "生成物理缩略图"
+
+#: oss-upload.php:447
+msgid ""
+"Default but not recommended, which occupy lots of storage and mess up files "
+"structure"
+msgstr "系统默认设置但不推荐，占用大量的存储空间并且扰乱文件结构"
+
+#: oss-upload.php:449
+msgid "Use OSS Image Service for a easy and simple way"
+msgstr "使用 OSS 图片服务"
+
+#: oss-upload.php:451
+msgid ""
+"Most recommended, which is compatible when you change your oss or thumbnails "
+"setting frequently"
+msgstr "最推荐，简单且兼容缩略图设置和 OSS 有变动改动的情况"
+
+#: oss-upload.php:453
+msgid "Use OSS Image Service for a intelligent and complicated style way"
+msgstr "使用 OSS 图片服务的样式方式"
+
+#: oss-upload.php:455
+msgid ""
+"Less recommended, which is more powerful but require more styles setting on "
+"your oss"
+msgstr "次推荐，定制功能强大，不过需要额外设置多个样式"
+
+#: oss-upload.php:459
+msgid "Featured Image"
+msgstr "特色图片"
+
+#: oss-upload.php:465
+msgid ""
+"Set the featured image dimensions when thumbnails enabled (width x height)"
+msgstr "当启用缩略图后设置特色图片的尺寸大小（宽X高）"
+
+#: oss-upload.php:468
+msgid "URL Fixer"
+msgstr "连接修正"
+
+#: oss-upload.php:472
+msgid "Find and replace whatever strings you want to fix the attachment url"
+msgstr "查找并替换附件连接中的指定字符串"
+
+#: oss-upload.php:475
+msgid "Default Style"
+msgstr "默认样式"
+
+#: oss-upload.php:479
+msgid "Suffix added after full size image for OSS Image Service style"
+msgstr "全尺寸图片的 OSS 图片服务默认样式后缀"
+
+#: oss-upload.php:485
+msgid "Style Separator"
+msgstr "样式分隔符"
+
+#: oss-upload.php:488
+msgid "Custom style separator for OSS Image Service style"
+msgstr "自定义 OSS 图片服务的样式名分隔符"
+
+#: oss-upload.php:494
+msgid "Upload Mimes"
+msgstr "上传文件类型"
+
+#: oss-upload.php:497
+msgid "Add file extensions and mime types to the allowed upload list"
+msgstr "添加文件扩展名和MIME类型到允许上传列表中"
+
+#: oss-upload.php:500
+msgid "Image Editor Class"
+msgstr "图像编辑类"
+
+#: oss-upload.php:503
+msgid "Use <code>WP_Image_Editor_GD</code> as default"
+msgstr "使用 <code>WP_Image_Editor_GD</code> 为默认"
+
+#: oss-upload.php:504
+msgid ""
+"Which is more compatible and stable, check if error occurred when edit image"
+msgstr "更兼容更稳定，编辑图像出错时请勾选"
+
+#: oss-upload.php:507
+msgid "Backup Mode"
+msgstr "备份模式"
+
+#: oss-upload.php:510
+msgid "Duplicate attachment in local storage"
+msgstr "复制附件到本地存储"
+
+#: oss-upload.php:516
+msgid ""
+"When checked, attachment can switch to local one and work fully functional "
+"if OSS Upload turned off afterwards"
+msgstr "当勾选，如果过后不启用 OSS 附件也可以切换到本地并正常显示"
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.xiaomac.com/2016121895.html"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Upload with Aliyun OSS, with modified OSS Wrapper and fully native image "
+"edit function support."
+msgstr ""
+"使用阿里云 OSS 作为媒体库附件存储空间，支持原创增强的 OSS 协议包装和全原生图"
+"像编辑及衍生功能。"
+
+#. Author of the plugin/theme
+msgid "Link"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.xiaomac.com"
+msgstr ""

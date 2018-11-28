@@ -1,0 +1,342 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WX Custom Share 1.5.7\n"
+"POT-Creation-Date: 2018-01-05 11:45+0800\n"
+"PO-Revision-Date: 2018-01-05 11:46+0800\n"
+"Last-Translator: \n"
+"Language-Team: QwqOffice <admin@qwqoffice.com>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: wx-custom-share.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: templates/metabox.php:9 wx-custom-share.php:585
+msgid "Title"
+msgstr "标题"
+
+#: templates/metabox.php:18 wx-custom-share.php:588
+msgid "Description"
+msgstr "描述"
+
+#: templates/metabox.php:27
+msgid "Link URL"
+msgstr "分享链接"
+
+#: templates/metabox.php:30
+msgid "Actual URL"
+msgstr "实际URL"
+
+#: templates/metabox.php:37 wx-custom-share.php:594
+msgid "Icon"
+msgstr "小图标"
+
+#: templates/metabox.php:42 wx-custom-share.php:479 wx-custom-share.php:525
+msgid "Media"
+msgstr "媒体库"
+
+#: templates/metabox.php:45
+msgid ""
+"Enter a URL, Upload or choose from media library. The image you selected "
+"should be square."
+msgstr "输入URL，上传或从媒体库选择。选择的图片最好为正方形"
+
+#: templates/metabox.php:52
+msgid "Preview"
+msgstr "预览"
+
+#: templates/metabox.php:55
+msgid "Timeline"
+msgstr "朋友圈"
+
+#: templates/metabox.php:70 templates/metabox.php:109
+msgid "cannot get the image"
+msgstr "无法获取图像"
+
+#: templates/metabox.php:82
+msgid "1 min ago"
+msgstr "1分钟前"
+
+#: templates/metabox.php:92
+msgid "Chat"
+msgstr "聊天界面"
+
+#: templates/metabox.php:414 wx-custom-share.php:636
+msgid "Choose Icon"
+msgstr "选择小图标"
+
+#: templates/metabox.php:416 wx-custom-share.php:638
+msgid "Insert"
+msgstr "插入"
+
+#: wx-custom-share.php:383
+#, php-format
+msgid ""
+"If you want to share link in Wechat directly, please follow these steps:\n"
+"\t\t\t\t<br>1. Verify your account on WeChat Admin Platform.\n"
+"\t\t\t\t<br>2. Enter AppID and AppSecret (Development > Basic "
+"Configuration).\n"
+"\t\t\t\t<br>3. Add your Server IP <code>%s</code> to IP White List "
+"(Development > Basic Configuration > IP whitelist).\n"
+"\t\t\t\t<br>4. Add Host <code>%s</code> to JSAPI Secure Domain (Settings > "
+"Account Info > Function setting > JS interface security domain name)."
+msgstr ""
+"如果你想要在微信中直接分享，请按以下步骤操作：\n"
+"\t\t\t\t<br>1、公众号通过微信认证\n"
+"\t\t\t\t<br>2、填写 AppID 和 AppSecret （开发 > 基本配置）\n"
+"\t\t\t\t<br>3、添加服务器IP <code>%s</code> 到 IP白名单中 （开发 > 基本配置 "
+"> IP白名单）\n"
+"\t\t\t\t<br>4、添加域名 <code>%s</code> 到 JS安全域名中（设置 > 公众号设置 > "
+"功能设置 > JS接口安全域名）"
+
+#: wx-custom-share.php:393
+msgid ""
+"Otherwise you must share link to Wechat via QQ to custom share info, or "
+"share in QQ directly."
+msgstr "否则你只能通过QQ分享链接到微信，或者直接在QQ中分享"
+
+#: wx-custom-share.php:405
+msgid "Settings"
+msgstr "设置"
+
+#: wx-custom-share.php:406
+msgid "Go Premium"
+msgstr "升级高级版"
+
+#: wx-custom-share.php:417
+msgid "Support"
+msgstr "支持"
+
+#: wx-custom-share.php:429 wx-custom-share.php:576
+msgid "Wechat Share Settings"
+msgstr "微信分享设置"
+
+#: wx-custom-share.php:429 wx-custom-share.php:716
+msgid "Wechat Share"
+msgstr "微信分享"
+
+#: wx-custom-share.php:435
+msgid "WeChat Platform"
+msgstr "微信公众平台"
+
+#: wx-custom-share.php:436
+msgid "Wechat AppID"
+msgstr "微信 AppID"
+
+#: wx-custom-share.php:437
+msgid "Wechat AppSecret"
+msgstr "微信 AppSecret"
+
+#: wx-custom-share.php:439
+msgid "Default"
+msgstr "默认设置"
+
+#: wx-custom-share.php:440
+msgid "Default Icon"
+msgstr "默认小图标"
+
+#: wx-custom-share.php:442
+msgid "Home"
+msgstr "首页设置"
+
+#: wx-custom-share.php:443
+msgid "Home Page Title"
+msgstr "首页标题"
+
+#: wx-custom-share.php:444
+msgid "Home Page Description"
+msgstr "首页描述"
+
+#: wx-custom-share.php:445
+msgid "Home Page URL"
+msgstr "首页链接"
+
+#: wx-custom-share.php:446
+msgid "Home Page Icon"
+msgstr "首页小图标"
+
+#: wx-custom-share.php:447
+msgid "Use Actual URL"
+msgstr "使用实际URL"
+
+#: wx-custom-share.php:449
+msgid "Advanced"
+msgstr "高级设置"
+
+#: wx-custom-share.php:450
+msgid "Post types to custom"
+msgstr "启用的文章类型"
+
+#: wx-custom-share.php:451
+msgid "Other"
+msgstr "其它"
+
+#: wx-custom-share.php:486
+msgid ""
+"Please go to edit page to set the share information if you choose a page as "
+"front page."
+msgstr "如果你选择页面作为首页，请到编辑页面中自定义分享信息"
+
+#: wx-custom-share.php:536
+msgid "Use Actual URL Instead"
+msgstr "使用实际URL代替设置的URL"
+
+#: wx-custom-share.php:560
+msgid "Clear plugin data when uninstall"
+msgstr "卸载时删除插件数据"
+
+#: wx-custom-share.php:564
+msgid "Debug mode"
+msgstr "调试模式"
+
+#: wx-custom-share.php:565
+msgid "Error will be print to console"
+msgstr "错误将会在控制台输出"
+
+#: wx-custom-share.php:584
+msgid "Information Setting Override Order"
+msgstr "分享信息覆盖顺序"
+
+#: wx-custom-share.php:586
+msgid "Front Page: Home Title Setting >> Blog Name"
+msgstr "首页：首页标题设置 > 站点标题"
+
+#: wx-custom-share.php:587
+msgid "Post: Post Title Setting in Post setting page >> Post title"
+msgstr "Post类型：Post编辑页面标题设置 > Post标题"
+
+#: wx-custom-share.php:589
+msgid "Front Page: Home Description Setting >> Blog Description"
+msgstr "首页：首页描述设置 > 站点副标题"
+
+#: wx-custom-share.php:590
+msgid ""
+"Post: Post Description Setting in Post setting page >> First Paragraph that "
+"length higher than 10 of Post Content >> Post Permalink"
+msgstr ""
+"Post类型：Post编辑页面描述设置 > Post第一个文本长度大于10的P标签 > Post永久链"
+"接"
+
+#: wx-custom-share.php:591
+msgid "URL"
+msgstr "链接"
+
+#: wx-custom-share.php:592
+msgid "Front Page: Home URL Setting >> Site URL"
+msgstr "首页：首页链接设置 > Post永久链接"
+
+#: wx-custom-share.php:593
+msgid "Post: Post URL Setting in Post setting page >> Post Permalink"
+msgstr "Post类型：Post编辑页面链接设置 > Post永久链接"
+
+#: wx-custom-share.php:595
+msgid "Front Page: Home Icon Setting >> Default Icon Setting"
+msgstr "首页：首页图标设置 > 默认图标设置"
+
+#: wx-custom-share.php:596
+msgid ""
+"Post: Post Icon Setting in Post setting page >> Post Featured Image >> First "
+"Image of Post Content >> Default Icon Setting"
+msgstr ""
+"Post类型：Post编辑页面图标设置 > Post特色图片 > Post第一张图片 > 默认图标设置"
+
+#: wx-custom-share.php:678
+msgid "Default is {post title} - {site name}."
+msgstr "默认为 {文章标题} - {站点标题}"
+
+#: wx-custom-share.php:679
+msgid "Default is the post permalink."
+msgstr "默认为文章永久链接"
+
+#: wx-custom-share.php:680
+msgid ""
+"Default is first paragraph that length higher than 10 of post content or "
+"post permalink. The domain must match the page domain."
+msgstr ""
+"默认为第一个长度大于10的P标签或文章永久链接。分享URL必须与页面URL同一域名"
+
+#: wx-custom-share.php:681
+msgid "Default is post featured image or first image of post content."
+msgstr "默认为文章特色图片或第一张图片"
+
+#: wx-custom-share.php:858
+msgid "WX Custom Share"
+msgstr "自定义微信分享"
+
+#. Plugin Name of the plugin/theme
+msgid "自定义微信分享"
+msgstr "自定义微信分享"
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.qwqoffice.com/article-20.html"
+msgstr "https://www.qwqoffice.com/article-20.html"
+
+#. Description of the plugin/theme
+msgid "自定义微信分享和QQ分享链接中的信息，包括标题、描述、小图标和分享链接"
+msgstr "自定义微信分享和QQ分享链接中的信息，包括标题、描述、小图标和分享链接"
+
+#. Author of the plugin/theme
+msgid "QwqOffice"
+msgstr "QwqOffice"
+
+#. Author URI of the plugin/theme
+msgid "https://www.qwqoffice.com"
+msgstr "https://www.qwqoffice.com"
+
+#~ msgid "Premium Version"
+#~ msgstr "高级版"
+
+#~ msgid "Save"
+#~ msgstr "保存"
+
+#~ msgid ""
+#~ "If you want to share link in Wechat directly, please <strong>enter AppID "
+#~ "and AppSecret</strong>, and <strong>add <code>%s</code> to JSAPI Secure "
+#~ "Domain</strong> and <strong>add your Server IP to IP White List</strong> "
+#~ "on WeChat Admin Platform use a <strong>authenticated account</strong>."
+#~ msgstr ""
+#~ "如果你想要在微信中直接分享，请<strong>输入AppID 和 AppSecret</strong>，通"
+#~ "过<strong>微信认证</strong>后在微信公众平台<strong>添加 <code>%s</code> 到"
+#~ "JS接口安全域名</strong>，并<strong>添加服务器IP到IP白名单</strong>"
+
+#~ msgid "Customize infomation in share link, support Wechat and QQ."
+#~ msgstr "自定义分享链接中的信息，支持微信和QQ"
+
+#~ msgid ""
+#~ "If you want to share link in Wechat directly, please <strong>enter AppID "
+#~ "and AppSecret</strong>, and <strong>add <code>%s</code> to JSAPI Secure "
+#~ "Domain</strong> on WeChat Admin Platform."
+#~ msgstr ""
+#~ "如果你想要在微信中直接分享，请<strong>输入AppID 和 AppSecrect</strong>，并"
+#~ "在微信公众平台<strong>添加 <code>%s</code> 到JS接口安全域名中</strong>"
+
+#~ msgid ""
+#~ "If you want to share link in Wechat directly, please <strong>enter AppID "
+#~ "and AppSecrect</strong>, and <strong>add <code>%s</code> to JSAPI Secure "
+#~ "Domain</strong> on WeChat Admin Platform."
+#~ msgstr ""
+#~ "如果你想要在微信中直接分享，请<strong>输入AppID 和 AppSecrect</strong>，并"
+#~ "在微信公众平台<strong>添加 <code>%s</code> 到JS接口安全域名中</strong>"
+
+#~ msgid "Wechat AppSecrect"
+#~ msgstr "微信AppSecrect"
+
+#~ msgid ""
+#~ "If you want to share link in Wechat derictly, please <strong>enter AppID "
+#~ "and AppSecrect</strong>, and <strong>add <code>%s</code> to JSAPI Secure "
+#~ "Domain</strong> in WeChat Admin Platform."
+#~ msgstr ""
+#~ "如果你想要在微信中直接分享，请<strong>输入AppID 和 AppSecrect</strong>，并"
+#~ "在微信公众平台<strong>添加 <code>%s</code> 到JS接口安全域名中</strong>"
+
+#~ msgid "Custom the icon in Wechat share link."
+#~ msgstr "自定义微信分享链接中的小图标"
